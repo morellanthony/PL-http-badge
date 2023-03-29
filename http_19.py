@@ -6,7 +6,8 @@ import requests
 
 url = 'http://ptl-d87f2f26-b2168624.libcurl.so/pentesterlab'
 
-# requests encodes the percentage by default
+# Pairs with an array
+
 payload = {'key[0]' : 'key', 'key[1]' : 'please'}
 
 r = requests.get(url, params=payload)
