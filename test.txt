@@ -1,1 +1,1 @@
-A simple test file.
+<key><value>>please</value></key>
